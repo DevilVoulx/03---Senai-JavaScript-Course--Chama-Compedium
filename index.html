@@ -5,6 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chama Compendium</title>
     <link rel="stylesheet" href="SSS.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
 </head>
 <body>
     <header class="SiteHeader"> 
@@ -33,13 +47,132 @@
                 <div class="Strings">
                     <h1>Invoque sua própria sombra,<br>sua outra parte</h1>
                     <p>Materialize seu espírito e lute contra as sombras de pensamentos suprimidos</p>
+                    <a href="#arcanas" class="Button Firstbutton">
                 </div>
+                <img src="assets/images/Arcana back.jpg" alt="">
+            </div>
+        </section>
+        <section class="MCPersonas" id="MCPersonas">
+            
+            <h2>Personas principais</h2>
+            
+            <div class="JokerArsene">
+                <article class="ArseneFool">
+                  <div class="ArseneImg">
+                    <img src="assets/images/ArcanaFool.jpg" alt="">
+                  </div>
+                  <h3> Arséne </h3>
+                  <p> A personificação dos contos de Mauríce Leblanc <p>
+                  <span class="Price"> 2000 </span>
+                  <button class="Arsene" data-name="FoolA" data-price="200.00">Invocar</button>
+                </article>
+            </div>
+
+            <div class="YuIzanagi">
+                <article class="YuIzanagi">
+                  <div class="IzanagiImg">
+                    <img src="assets/images/ArcanaFool.jpg" alt="">
+                  </div>
+                  <h3> Izanagi </h3>
+                  <p> O Deus da criação da mitologia japonesa <p>
+                  <span class="Price"> 2000 </span>
+                  <button class="Izanagi" data-name="FoolI" data-price="200.00">Invocar</button>
+                </article>
+            </div>
+
+            <div class="MakotoOrpheus">
+                <article class="OrpheusFool">
+                  <div class="OrpheusImg">
+                    <img src="assets/images/ArcanaFool.jpg" alt="">
+                  </div>
+                  <h3> Orpheus </h3>
+                  <p> O Deus mestre das linhas da mitologia grega <p>
+                  <span class="Price"> 2000 </span>
+                  <button class="Orpheus" data-name="FoolO" data-price="200.00">Invocar</button>
+                </article>
+            </div>
+
+        </section>
+
+        <section class="AboutUs" id="AboutUs">
+            <div class="AboutImg">
+                <img src="assets/images/Igor.jpg" alt="" width="400" height="300">
+            </div>
+
+            <div class="Abouttxt">
+              <span class="AboutSpan">O que é a Velvet Room</span>
+              <h2>Ela é algo que está entr o sonho e a realidade,<br> mente e matéria</h2>
+              <p> Igor criou a Velvet room</p>
+            <a href="#personas" class="LinkPersona">Invocar</a>
+            </div>
+
+
+        </section>
+
+        <section class="Opnions" id="Opnions">
+            <h2> Nossos convidados </h2>
+
+            <div class="OpnionCard">
+             <article class="OpnionsMY"> 
+                <img src="" alt="" class="avatar">
+             <p class="point"> Me ajudou muito a consegui salvar a humanidade contra a morte </p>
+             <p class="author">Makoto yuki<span> - Usuário frequente</span></p>
+             </article>
+
+              <article class="OpnionsYu"> 
+                <img src="" alt="" class="avatar">
+             <p class="point"> Me ajudou muito a consegui salvar o povo de Yasoinaba da Izanami </p>
+             <p class="author">Yu Narukami<span> - Usuário frequente</span></p>
+             </article>
+
+              <article class="OpnionsAi"> 
+                <img src="" alt="" class="avatar">
+             <p class="point"> Foi útil quando estava presa no abismo do tempo </p>
+             <p class="author">Aigis<span> - Usuário exporádico</span></p>
+             </article>
             </div>
         </section>
 
+        <section class="ArcanaDiscover" id="ArcanaDiscover">
+          <h2>Descubra seu arcana e desbloqueie seu potêncial</h2>
+          <p>Descreva a si mesmo para nós lhe ajudarmos</p>
+          <form class="DiscoverForm" id="DiscoverForm">
+            <div class="FormLine">
+                <label for="YourName">Seu Nome</label>
+                <input type="text" id="YourName" placeholder="" required>
+            </div>
+
+            <div class="FormLine">
+                <label for="YourContact">Seu Telefone</label>
+                <input type="tel" id="YourContact" placeholder="" required>
+            </div>
+
+            <div class="FormLine">
+                <label for="YourBirth">Sua data de nascimento</label>
+                <input type="date" id="YourBirth" placeholder="" required>
+            </div>
+            
+             <div class="FormLine">
+                <label for="YourEvoker">Qual seu método de invocação</label>
+                <select name="YourEvoker" id="YourEvoker" required>
+                    <option value="1">Evoker</option>
+                    <option value="2">Carta</option>
+                    <option value="3">Máscara</option>
+                </select>
+            </div>
+
+            <div class="FormLine FormLineCompleted">
+             <label for="Mensage">Conte para nõs quem e como você é </label>
+             <textarea name="Mesage" id="Mesage" rows="10" required></textarea>
+            </div>
+
+
+            <button class="btn Button SendForm">Enviar formulário</button>
+          </form>
+        </section>    
 
     </main>
 
 </body>
 </html>
-03---Senai-JavaScript-Course--Chama-Compedium SSS.css
+
