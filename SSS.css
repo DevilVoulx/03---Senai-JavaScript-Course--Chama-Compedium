@@ -1,0 +1,111 @@
+:root{
+    --color-primary:#151da6;
+    --color-secundary:#28258d;
+    --color-accent:#15155b;
+    --color-dark: #201A17;                           
+    --color-light: #FFF7ED;                         
+    --color-gray: #6b7280; 
+    --radius:14px;
+    --font-title:Bodoni moda;
+    --font-base:Elsie;
+    --color-menu:#159ca6;
+
+}
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-base);
+    color:var(--color-dark);
+    line-height: 1.5;
+
+}
+
+h1,h2,h3{
+    font-family: var(--font-title);
+    font-weight: 400;
+    letter-spacing: 0.3px;
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+}
+
+ul{
+    list-style: none;
+
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+.Btn_nav{
+    background: var(--color-secundary);
+    color:#FFF7ED;
+    padding: 10px 22px;
+}
+
+.SiteHeader{
+    background: linear-gradient(280deg,var(--color-dark),var(--color-secundary) );
+    position: sticky;
+    top: 0;
+    z-index: 30;
+}
+
+.NavBar{
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 24px;
+}
+
+.Logo{
+    font-size: 10%;
+    font-size: 2rem;
+    color: var(--color-light);
+    letter-spacing: 1px;
+}
+
+.NavLinks{
+    display: flex;
+    gap: 32px;
+
+}
+
+.NavLinks a{
+    color: var(--color-light);
+}
+
+.NavLinks a:hover{
+    color:var(--color-menu);
+}
+
+
+
+.Orpheus{
+    background: linear-gradient(250deg,var(--color-dark),var(--color-secundary) );
+    width: 100%;
+    padding: 80px 24px;
+    color:#FFF7ED
+}
+
+.Harp{
+    max-width: 100%;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+}
+.Harp img{
+    width: 300px;
+}

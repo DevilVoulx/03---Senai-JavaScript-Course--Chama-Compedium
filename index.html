@@ -13,7 +13,7 @@
       href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
-
+    
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -22,22 +22,22 @@
 </head>
 <body>
     <header class="SiteHeader"> 
+        <a href="#" class="Logo">Velvet Compendium</a>
         <nav class="NavBar"> 
-         <a href="#" class="Logo">Chama Compendium</a>
 
-          <ul class="Nav-links" id="NavLinks"> 
-          <li><a href="#Personas/Demons">Personas / Demônios</li>
-          <li><a href="#Fusions">Fusões</li>
-          <li><a href="#Itens">Itens</li>
-          <li><a href="#Upgrades">Melhorias</li>
-          <li><a href="#Lockdown">Lockdown</li>
-          <li><a href="#SocialLink">Link Social</li>
-          <li><a href="#WildCard">Cartas especiais</li>
+          <ul class="NavLinks" id="NavLinks"> 
+           <li><a href="#Personas/Demons">Personas / Demônios</li>
+           <li><a href="#Fusions">Fusões</li>
+           <li><a href="#Itens">Itens</li>
+           <li><a href="#Upgrades">Melhorias</li>
+           <li><a href="#Lockdown">Lockdown</li>
+           <li><a href="#SocialLink">Link Social</li>
+           <li><a href="#WildCard">Cartas especiais</li>
           </ul>   
          
          <a href="#Summon" class="Btn Btn_nav">Invocar</a>
          
-         <button class="menu-toggle" id="MenuToggle" aria-label="OpenMenu">≡</button>
+         <button class="MenuToggle" id="MenuToggle" aria-label="OpenMenu">≡</button>
         </nav>
     </header>
 
@@ -49,7 +49,7 @@
                     <p>Materialize seu espírito e lute contra as sombras de pensamentos suprimidos</p>
                     <a href="#arcanas" class="Button Firstbutton">
                 </div>
-                <img src="assets/images/Arcana back.jpg" alt="">
+                <img src="assets/images/Arcana back.jpg" alt="ArcanaBack">
             </div>
         </section>
         <section class="MCPersonas" id="MCPersonas">
@@ -59,7 +59,7 @@
             <div class="JokerArsene">
                 <article class="ArseneFool">
                   <div class="ArseneImg">
-                    <img src="assets/images/ArcanaFool.jpg" alt="">
+                    <img src="assets/icons/Arseneicon.jpg" alt="">
                   </div>
                   <h3> Arséne </h3>
                   <p> A personificação dos contos de Mauríce Leblanc <p>
@@ -71,7 +71,7 @@
             <div class="YuIzanagi">
                 <article class="YuIzanagi">
                   <div class="IzanagiImg">
-                    <img src="assets/images/ArcanaFool.jpg" alt="">
+                    <img src="assets/icons/IzanagiIcon.jpg" alt="">
                   </div>
                   <h3> Izanagi </h3>
                   <p> O Deus da criação da mitologia japonesa <p>
@@ -83,12 +83,12 @@
             <div class="MakotoOrpheus">
                 <article class="OrpheusFool">
                   <div class="OrpheusImg">
-                    <img src="assets/images/ArcanaFool.jpg" alt="">
+                    <img src="assets/icons/OrpheusIcon.jpg" alt="">
                   </div>
                   <h3> Orpheus </h3>
                   <p> O Deus mestre das linhas da mitologia grega <p>
                   <span class="Price"> 2000 </span>
-                  <button class="Orpheus" data-name="FoolO" data-price="200.00">Invocar</button>
+                  <button class="OrpheusE" data-name="FoolO" data-price="200.00">Invocar</button>
                 </article>
             </div>
 
@@ -114,19 +114,19 @@
 
             <div class="OpnionCard">
              <article class="OpnionsMY"> 
-                <img src="" alt="" class="avatar">
+                <img src="assets/icons/MakotoIcon.png" alt="" class="avatar">
              <p class="point"> Me ajudou muito a consegui salvar a humanidade contra a morte </p>
              <p class="author">Makoto yuki<span> - Usuário frequente</span></p>
              </article>
 
               <article class="OpnionsYu"> 
-                <img src="" alt="" class="avatar">
+                <img src="assets/icons/YuIcon.jpg" alt="" class="avatar">
              <p class="point"> Me ajudou muito a consegui salvar o povo de Yasoinaba da Izanami </p>
              <p class="author">Yu Narukami<span> - Usuário frequente</span></p>
              </article>
 
               <article class="OpnionsAi"> 
-                <img src="" alt="" class="avatar">
+                <img src="assets/icons/AigisIcon.jpg" alt="" class="avatar">
              <p class="point"> Foi útil quando estava presa no abismo do tempo </p>
              <p class="author">Aigis<span> - Usuário exporádico</span></p>
              </article>
@@ -169,10 +169,24 @@
 
             <button class="btn Button SendForm">Enviar formulário</button>
           </form>
+        
+          <div class="ConfirmArcana" id="Confirm-arcana">
+            <h2>Seja o escolhido de sua própria hitória</h2>
+            <p>Faça a mudança da vida daqueles que suas vozes não alcançam o mundo</p>
+          </div>
+
         </section>    
 
     </main>
 
-</body>
+  <footer class="Contact" id="Contact">
+    <div class="infos">
+    <p>&copy; XXXX Velvet-Room — Iremos invocar a porta quando solicitado, ???, ??????</p>
+    <p class="rodape-horario">Todos os dias, todas as horas</p>
+    </div>
+  </footer>
+
+  <script src="script.js" ></script>
+ </body>
 </html>
 
